@@ -14,21 +14,21 @@ body {
 
 /* ================ Photos ================= */
 .panel1 {
-  background-image: url("https://unsplash.com/photos/pVyaUGCuUU4");
+  background-image: url("/Project-1-ExpandingCards/images/gaming\ setup.jpg");
 }
 
 .panel2 {
-  background-image: url("https://unsplash.com/photos/q57bD2rwG3c");
+  background-image: url("/Project-1-ExpandingCards/images/nintendo.jpg");
 }
 
 .panel3 {
-  background-image: url("https://unsplash.com/photos/xzNZGRXsrDc");
+  background-image: url("/Project-1-ExpandingCards/images/mirrorless\ camera.jpg");
 }
 
 .panel4 {
-  background-image: url("https://unsplash.com/photos/Z6SXt1v5tP8");
+  background-image: url("/Project-1-ExpandingCards/images/mechanical\ keyboard.jpg");
 }
 
 .panel5 {
-  background-image: url("https://unsplash.com/photos/hPVU6AWUNDY");
+  background-image: url("/Project-1-ExpandingCards/images/hyperx\ ddr4\ ram.jpg");
 }
