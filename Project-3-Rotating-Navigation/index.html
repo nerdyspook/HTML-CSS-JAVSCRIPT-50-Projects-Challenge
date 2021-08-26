@@ -5,14 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+    <!-- ======================= UNICONS ============================= -->
+    <script src="https://kit.fontawesome.com/a9f9b0dec9.js" crossorigin="anonymous"></script>
+    
     <!-- ======================= CSS ================================= -->
     <link rel="stylesheet" href="/Project-3-Rotating-Navigation/styles.css">
 
     <title>Rotating Navigation</title>
 </head>
 <body>
-    
 
+    <div class="container">
+        <div class="circle__container">
+            <div class="circle"></div>
+            <button id="close">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <button id="open">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="content">
+            <h1>Semantic Git Commits</h1>
+            <p>It means that these are the guidelines that should be followed while writing commit messages, so that:</p>
+            <ol>
+                <li>The commit messages are semantic - because these are categorized into meaningful types, indicating the essence of the commit.</li>
+                <li>The commit messages are conventional - because these are formatted by consistent structure and well-known types.</li>
+            </ol>
+            <p>
+                The commit message should be structured as follows:<br>
+                (type)[optional scope]: (subject)<br>
+                [optional body]<br>
+                [optional footer(s)]<br><hr>
+                A commit message consists of three parts- header, body and footer
+            </p>
+            <h2>Header</h2>
+            <p>The header is the most important line which describes the purpose of the commit.
+    
+            It consists of three parts:</p>
+            <ol>
+                <li>type - represents the kind of change</li>
+                <li>scope - represents the context of change</li>
+                <li>subject - represents a concise description of the change</li>
+            </ol>
+    
+            <h2>Body</h2>
+            <p>The body contains the description which tells us the motivation behind the change.</p>
+    
+            <h2>Footer</h2>
+            <p>The footer contains the consequences that tell us the outcome of the change, such as announcing a breaking change, linking closed issues, mentioning contributors, etc.</p>
+    
+        </div>
+
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="far fa-envelope"></i>Contact</li>
+        </ul>
+    </nav>
+    
     <script src="/Project-3-Rotating-Navigation/main.js"></script>
 </body>
 </html>
