@@ -63,7 +63,3 @@ body {
 .search.active .btn {
   transform: translateX(12rem);
 }
-
-.btn:active {
-  transform: scale(0.4);
-}
