@@ -37,3 +37,10 @@ body {
   top: -1.5rem;
   color: #6b7280;
 }
+
+.key:hover {
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px rgba(220, 233, 255, 0.48);
+  transform: translateY(-0.5rem) scale(1.005);
+  transition: transform 0.3s ease-in-out;
+}
