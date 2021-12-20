@@ -72,3 +72,44 @@ nav ul a {
     text-decoration: none;
     margin: 0 10px;
 }
+
+.icon {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+    padding-bottom: 0.6rem;
+    position: relative;
+
+    height: 3rem;
+    width: 3rem;
+}
+
+.icon:focus {
+    outline: none;
+}
+
+.icon .line {
+    background-color: #5290f9;
+    height: 2px;
+    width: 20px;
+
+    position: relative;
+    top: 10px;
+    left: 1px;
+
+    transition: transform 0.3s linear;
+}
+
+.icon .line2 {
+    top: 0;
+    bottom: 5px;
+}
+
+nav.active .icon .line1 {
+    transform: rotate(-405deg) translateY(-0.35rem);
+}
+
+nav.active .icon .line2 {
+    transform: rotate(405deg) translateY(0.35rem);
+}
